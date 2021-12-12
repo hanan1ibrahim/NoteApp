@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O0r-5T-UPd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="BIr-LY-TIH">
+            <objects>
+                <viewController id="O0r-5T-UPd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tzj-XN-pLe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Qn3-PH-l4D">
+                                <rect key="frame" x="-325.5" y="56" width="1065" height="840"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1065" id="cdh-jh-H7q"/>
+                                    <constraint firstAttribute="height" constant="840" id="zLz-zE-Unc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aV-Wb-ATx">
+                                <rect key="frame" x="0.0" y="493" width="414" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="l3g-UT-ywJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="63"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="foY-0b-qbu"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qn3-PH-l4D" firstAttribute="centerY" secondItem="Tzj-XN-pLe" secondAttribute="centerY" constant="28" id="5SU-bH-kxh"/>
+                            <constraint firstItem="Qn3-PH-l4D" firstAttribute="centerX" secondItem="Tzj-XN-pLe" secondAttribute="centerX" id="Ukn-cy-M79"/>
+                            <constraint firstItem="4aV-Wb-ATx" firstAttribute="trailing" secondItem="foY-0b-qbu" secondAttribute="trailing" id="XpP-cq-e40"/>
+                            <constraint firstItem="4aV-Wb-ATx" firstAttribute="top" secondItem="Qn3-PH-l4D" secondAttribute="bottom" constant="-403" id="bcH-hs-Iw9"/>
+                            <constraint firstItem="4aV-Wb-ATx" firstAttribute="leading" secondItem="foY-0b-qbu" secondAttribute="leading" id="oat-89-8Hs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J3c-La-hey" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="374.33035714285711"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="1080" height="1080"/>
+    </resources>
+</document>
